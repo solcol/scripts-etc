@@ -1,0 +1,28 @@
+# GB (CDN)
+deb http://kali.download/kali/ kali-rolling main contrib non-free
+
+# EU
+deb http://kali.download/kali/ kali-rolling main contrib non-free
+deb http://ftp.free.fr/pub/kali/ kali-rolling main contrib non-free
+deb http://archive-4.kali.org/kali/ kali-rolling main contrib non-free
+deb http://ftp.belnet.be/pub/kali/kali/ kali-rolling main contrib non-free
+deb http://ftp.halifax.rwth-aachen.de/kali/ kali-rolling main contrib non-free
+deb http://mirror.serverius.net/kali/ kali-rolling main contrib non-free
+deb http://mirror.netcologne.de/kali/ kali-rolling main contrib non-free
+deb http://mirrors.dotsrc.org/kali/ kali-rolling main contrib non-free
+deb http://mirror.serverion.com/kali/ kali-rolling main contrib non-free
+deb http://mirror.karneval.cz/pub/linux/kali/ kali-rolling main contrib non-free
+deb http://ftp.acc.umu.se/mirror/kali.org/kali/ kali-rolling main contrib non-free
+
+# Worldwide
+deb http://kali.itsec.am/kali/ kali-rolling main contrib non-free
+deb http://mirror.hostart.az/kali/ kali-rolling main contrib non-free
+deb http://kali.darklab.sh/kali/ kali-rolling main contrib non-free
+deb http://mirrors.jevincanders.net/kali/ kali-rolling main contrib non-free
+deb http://mirrors.ocf.berkeley.edu/kali/ kali-rolling main contrib non-free
+deb http://mirror.anigil.com/kali/ kali-rolling main contrib non-free
+deb http://ftp.jaist.ac.jp/pub/Linux/kali/ kali-rolling main contrib non-free
+deb http://mirror.lagoon.nc/kali/ kali-rolling main contrib non-free
+deb http://hlzmel.fsmg.org.nz/kali/ kali-rolling main contrib non-free
+deb http://mirror.2degrees.nz/kali/ kali-rolling main contrib non-free
+deb http://wlglam.fsmg.org.nz/kali/ kali-rolling main contrib non-free
