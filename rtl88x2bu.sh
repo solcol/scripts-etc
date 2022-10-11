@@ -22,6 +22,12 @@ echo -e "\n\n##########\n\nInstalling RTL88x2BU dynamic kernel module"
 sed -i 's/PACKAGE_VERSION="@PKGVER@"/PACKAGE_VERSION="git"/g' /usr/src/rtl88x2bu-git/dkms.conf
 dkms add -m rtl88x2bu -v git
 
+echo -e "\n\n##########\n\nRunning dkms autoinstall"
+dkms autoinstall
+
+echo -e "\n\n##########\n\nEnabling kernel module right now"
+modprobe 88x2bu
+
 # \a = beep speaker!!
 # \n = linebreak hopefully
-echo -e "\a\n\n##########\n\nDone with everything (hopefully)! \nYou must reboot your system and run 'dkms autoinstall' to complete install.\nGood Luck :)"
+echo -e "\a\n\n##########\n\nDone with everything... hopefully!)\nYou will probably have to reboot your system before anything works\nGood Luck :)"
