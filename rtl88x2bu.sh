@@ -15,7 +15,8 @@ echo "Installing aircrack-ng, git & dksm"
 apt install aircrack-ng dkms git -y
 
 echo "Cloning repository to /usr/src/rtl88x2bu-git"
-git clone https://github.com/RinCat/RTL88x2BU-Linux-Driver.git /usr/src/rtl88x2bu-git
+rm -rfv /usr/src/rtl88x2bu-git # remove if it already exists
+git clone https://github.com/RinCat/RTL88x2BU-Linux-Driver.git /usr/src/rtl88x2bu-git -v 
 
 echo "Installing RTL88x2BU dynamic kernel module"
 sed -i 's/PACKAGE_VERSION="@PKGVER@"/PACKAGE_VERSION="git"/g' /usr/src/rtl88x2bu-git/dkms.conf
