@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# SolCol.TomR.me 2022
+# SolCol.ThomasR.me 2022
 # https://github.com/solcol/scripts-etc
 #
 # Actual commands that do stuff stolen from the doc on Teams, sorry Neil xx
