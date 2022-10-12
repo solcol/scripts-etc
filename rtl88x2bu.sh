@@ -23,11 +23,11 @@ if [[ ! -f $check_file ]]; then
     # haven't run the script before, need to update and install stuff 
     echo -e "\n\n\nUpdating Package Repos & Upgrading...\n##########\n\n"
     sleep $sleep_time
-    apt update -y && apt upgrade -y
+    DEBIAN_FRONTEND=noninteractive apt-get update -y && apt-get upgrade -y
 
     echo -e "\n\n\nInstalling aircrack-ng, git & dkms...\n##########\n\n"
     sleep $sleep_time
-    apt install aircrack-ng dkms git -y
+    DEBIAN_FRONTEND=noninteractive apt-get install aircrack-ng dkms git -y
 else
     echo -e "Welcome back!\nThis isn't the first time you've run this script: let's get those kernel modules running!\n\n"
     sleep $sleep_time
